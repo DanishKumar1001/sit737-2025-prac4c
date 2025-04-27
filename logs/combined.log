@@ -1,0 +1,57 @@
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /?num1=2&num2=122 from IP ::1","service":"calculator-microservice"}
+{"level":"warn","message":"Invalid endpoint accessed: GET /?num1=2&num2=122","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /power?num1=2&num2=122 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 122 = 5.316911983139664e+36","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /power?num1=2&num2=2 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 2 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /power?num1=2&num2=8 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 8 = 256","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /modulo?num1=2&num2=8 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 2 % 8 = 2","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=2&num2=8 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(2) = 1.4142135623730951","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /modulo?num1=2&num2=0 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Attempted modulo by zero","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num2=0 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Missing num1 parameter for square root","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num2=0 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Missing ${req.query} parameter for square root","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Missing num2 parameter for square root","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=3&num2=-5 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=-12&num2=3 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=-2&num2=3 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(3) = 1.7320508075688772","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /sqrt?num1=10&num2=-3 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}

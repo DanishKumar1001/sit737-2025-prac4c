@@ -1,0 +1,7 @@
+{"level":"error","message":"Attempted modulo by zero","service":"calculator-microservice"}
+{"level":"error","message":"Missing num1 parameter for square root","service":"calculator-microservice"}
+{"level":"error","message":"Missing ${req.query} parameter for square root","service":"calculator-microservice"}
+{"level":"error","message":"Missing num2 parameter for square root","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}
+{"level":"error","message":"Attempted square root of negative number","service":"calculator-microservice"}
